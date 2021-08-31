@@ -13,5 +13,25 @@
 
 ## Below are some of images of Postman Output on various requets
 
+ ###UPDATE SPECIFIC STUDENT REQUEST
+<p>
+<img  src="assets/4.png" width = "400px" height = "440px">
+ </p>
+ 
+ ### GET ALL STUDENTS REQUEST
+<p >
+<img  src="assets/1.png" width = "400px" height = "440px"">
+ </p><br>
+ 
+ ### GET SPECIFIC STUDENT BY ID REQUEST
+<p >
+<img  src="assets/2.png" width = "400px" height = "440px"">
+ </p><br>
+
+ ### DELETE STUDENT BY ID REQUEST
+<p >
+<img  src="assets/3.png" width = "400px" height = "440px">
+ </p><br>
+
 
 
