@@ -65,7 +65,8 @@ app.get("/students/:id", function(req, res) {
 app.delete("/students/:id", function(req, res) {
     dbConn.query("DELETE FROM students WHERE ID = ?", [req.params.id], (err, rows, fields) => {
         if (!err)
-            res.send(rows)
+
+            console.log("student deleted succesifully")
         else
             console.log(err)
 
