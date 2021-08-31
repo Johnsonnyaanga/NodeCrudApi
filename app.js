@@ -39,6 +39,8 @@ app.get("/students", function(req, res) {
 //post a  students
 app.post("/students", function(req, res) {
     var data = req.body;
+
+    //console.log(a)
     dbConn.query("INSERT INTO students(ID, NAME, REGNO, FORM, PASSWORD) VALUES(?)", data, (err, rows, fields) => {
         if (!err)
             res.send(rows)
@@ -73,6 +75,23 @@ app.delete("/students/:id", function(req, res) {
 
 
 //update student
+//post a  students
+app.put("/students", function(req, res) {
+    var data = req.body;
+    data.forEach(function(value) {
+        dbConn.query('UPDATE students SET ? WHERE ID = "' + value.ID + '" ', data, (err, rows, fields) => {
+            if (!err)
+                res.send(rows)
+            else
+                console.log(err)
+
+        })
+    });
+
+
+});
+
+
 
 
 
