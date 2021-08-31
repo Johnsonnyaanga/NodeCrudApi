@@ -9,3 +9,9 @@
 </ol>
 
 #### Uses sql queries and json format
+#### Sql database contains four tables teachers,students,parents and admin. But to demonstrate the skill i have only used students table.
+
+## Below are some of images of Postman Output on various requets
+
+
+
