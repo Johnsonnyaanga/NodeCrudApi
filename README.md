@@ -12,6 +12,10 @@
 #### Sql database contains four tables teachers,students,parents and admin. But to demonstrate the skill i have only used students table.
 
 ## Below are some of images of Postman Output on various requets
+ ### CREATE STUDENT
+<p >
+<img  src="assets/5.png" width = "400px" height = "440px">
+ </p><br>
 
  ###UPDATE SPECIFIC STUDENT REQUEST
 <p>
